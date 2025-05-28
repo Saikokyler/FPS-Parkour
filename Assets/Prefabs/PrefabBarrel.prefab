@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!64 &748964256619935944
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3426069430211591626}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 625d6043ba253b34f974dc90cc1e69f5, type: 3}
 --- !u!1 &6718286892472439234
 GameObject:
   m_ObjectHideFlags: 0
@@ -10,6 +24,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7277483382570869799}
   - component: {fileID: 8951448038959375068}
+  - component: {fileID: 5360635186739366466}
+  - component: {fileID: 8820419963804191553}
   m_Layer: 0
   m_Name: PrefabBarrel
   m_TagString: Untagged
@@ -48,6 +64,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &5360635186739366466
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6718286892472439234}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
+--- !u!114 &8820419963804191553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6718286892472439234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b08548ea900e7549b74f448482c8878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3426069430211689322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -105,6 +147,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 625d6043ba253b34f974dc90cc1e69f5, type: 3}
+--- !u!1 &3426069430211591626 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 625d6043ba253b34f974dc90cc1e69f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 3426069430211689322}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3426069430211289578 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 625d6043ba253b34f974dc90cc1e69f5,
