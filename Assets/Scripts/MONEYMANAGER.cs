@@ -6,16 +6,18 @@ public class MONEYMANAGER : MonoBehaviour
 {
     public float money;
 
-    public void UpdateMoney(float amount)
+    public bool UpdateMoney(float amount)
 
     {
         if (money + amount < 0)
         {
             Debug.Log("No te alcanza");
+            return false;
         }
         else
         { 
             money += amount;
+            return true;
         }
     }
 }
